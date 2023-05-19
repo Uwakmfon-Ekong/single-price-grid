@@ -4,8 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+ body {
     background: #e6eff6;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    min-height: 100vh;
 }
 .container{
     width: 600px;
